@@ -15,8 +15,8 @@ const Navbar = () => {
       "nav",
       { backgroundColor: "transparent" },
       {
-        backgroundColor: "00000050",
-        backgroundFilter: "blur(10px)",
+        backgroundColor: "#00000050",
+        backdropFilter: "blur(10px)",
         duration: 1,
         ease: "power1.inOut",
       },
@@ -31,7 +31,7 @@ const Navbar = () => {
             className="flex items-center gap-2 "
           >
             <img
-              src="../../public/images/logo.png"
+              src="/images/logo.png"
               alt="logo-png"
             />
             <p>Velvet Pour</p>
